@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full-Stack Movie Rental Web Application
+
+A portfolio project showcasing a database-driven web application for managing an online movie rental catalog. This project was built to demonstrate practical full-stack development skills, including CRUD operations, server-side routing, form handling, and front-end presentation.
+
+## Project Overview
+
+This application was created for the Internet Movies Rental Company (IMR) as an administrative portal to manage movie records. It allows users to create, read, update, and delete movie data through a clean web interface connected to a backend data layer.
+
+## Portfolio Highlights
+
+- Built a complete full-stack workflow from UI to data persistence
+- Implemented core CRUD functionality for movie management
+- Structured application logic with maintainable JavaScript modules
+- Designed responsive and readable UI styling with CSS
+- Practiced real-world development patterns for data-driven applications
+
+## Features
+
+- View movie records in a centralized list
+- Add new movies through form-based input
+- Edit existing movie entries
+- Delete movie records
+- Validate and process user input
+- Navigate pages using server-side routes
+
+## Tech Stack
+
+- JavaScript (primary language)
+- CSS
+- Node.js
+- Express.js
+- Database integration (project-specific configuration)
+
+## Repository Structure
+
+```text
+.
+├── public/
+├── routes/
+├── views/
+├── app.js
+└── ...
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+- Access to the configured database
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/webdevyn/Full-Stack-Movie-Rental-Web-Application.git
+   ```
+2. Move into the project folder:
+   ```bash
+   cd Full-Stack-Movie-Rental-Web-Application
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Configure environment/database settings as needed.
+
+### Run the Application
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open the local URL shown in your terminal.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## What This Project Demonstrates
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Full-stack JavaScript development
+- REST-style route handling
+- Data modeling and database interaction
+- Form and request lifecycle management
+- Basic UI/UX decision-making for admin workflows
 
-## Learn More
+## Potential Improvements
 
-To learn more about Next.js, take a look at the following resources:
+- Add user authentication and role-based access
+- Add search, filtering, and pagination for large catalogs
+- Add automated tests for routes and business logic
+- Improve deployment setup and environment management
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Created by [webdevyn](https://github.com/webdevyn) as a portfolio project.
